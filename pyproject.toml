@@ -20,6 +20,8 @@ jinja2 = "3.0.3"
 
 
 [tool.poetry.scripts]
+create-db = "antminermonitor.create_db:main"
+create-admin = "antminermonitor.create_admin:main"
 manage = "antminermonitor.manage:main"
 
 [tool.poetry.group.dev.dependencies]
