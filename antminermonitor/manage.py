@@ -1,4 +1,5 @@
 import subprocess
+import sys
 
 from flask.cli import FlaskGroup
 
@@ -78,5 +79,10 @@ def format():
     subprocess.call(yapf, shell=True)
 
 
+def main():
+    print(sys.argv)
+    cli(sys.argv[1:])
+
+
 if __name__ == "__main__":
-    cli()
+    main()

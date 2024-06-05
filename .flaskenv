@@ -8,7 +8,7 @@ FLASK_APP="antminermonitor/app.py:create_app()"
 FLASK_RUN_HOST="0.0.0.0"
 
 # you can change this to whatever you want
-FLASK_RUN_PORT=5000
+FLASK_RUN_PORT=3000
 
 # default 'production'
 FLASK_ENV="development"
